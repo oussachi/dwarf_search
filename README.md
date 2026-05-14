@@ -22,7 +22,7 @@ DWARF_Search walks all FDEs and emits `start → end` ranges, optionally cross-r
 | File | Purpose |
 |---|---|
 | `dwarf_search.py` | Main tool — extracts functions from `.eh_frame` |
-| `tests/compare.py` | Test harness — symtab vs `.eh_frame` side-by-side |
+| `compare.py` | Test harness — symtab vs `.eh_frame` side-by-side |
 | `tests/test_c.c` | C test program with several distinct functions |
 | `tests/test_cpp.cpp` | C++ test program with classes, templates, exceptions |
 | `tests/Makefile` | Builds four binaries (stripped + unstripped for each) |
